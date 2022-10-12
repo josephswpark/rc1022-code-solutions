@@ -1,0 +1,74 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+body {
+  background-color: white;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+  padding-top: 7px;
+  line-height: 25%;
+  color: rgb(236 97 91);
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+label {
+  padding-left: 7px;
+  font-size: 60%;
+  text-align: center;
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: bold;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  font-family: AtlasGrotesk;
+  font-style: normal;
+  font-weight: 300;
+  src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
+  color: rgb(175 175 175);
+  font-size: 65%;
+  margin-top: 2.5px;
+  margin-bottom: 7.5px;
+}
+
+select {
+  width: 100%;
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: normal;
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2");
+  font-size: 65%;
+  background-color: rgb(243 243 243);
+  border-radius: 2.5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+div {
+  text-align: end;
+  padding-top: 6.5px;
+}
+
+button {
+  color: white;
+  border: white;
+  background-color: rgb(236 97 91);
+  border-radius: 15px;
+  padding: 5px 12px;
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2");
+  font-size: 65%;
+}
