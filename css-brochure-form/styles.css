@@ -1,0 +1,62 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+body {
+  background-color: white;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Brandon Grotesque";
+  font-weight: 500;
+  padding-top: 7px;
+  line-height: 25%;
+  color: rgb(236 97 91);
+}
+
+form {
+  width: 21%;
+  margin: auto;
+}
+
+label {
+  padding-left: 7px;
+  font-size: 7px;
+  text-align: center;
+  font-family: "Brandon Grotesque";
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  font-family: AtlasGrotesk;
+  font-weight: 300;
+  color: rgb(175 175 175);
+  font-size: 10px;
+  margin-top: 2.5px;
+  margin-bottom: 7.5px;
+}
+
+select {
+  width: 100%;
+  font-family: "Brandon Grotesque";
+  background-color: rgb(243 243 243);
+  border-radius: 2.5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+div {
+  text-align: end;
+  padding-top: 6.5px;
+}
+
+button {
+  color: white;
+  border: white;
+  background-color: rgb(236 97 91);
+  border-radius: 15px;
+  padding: 5px 12px;
+  font-family: "Brandon Grotesque";
+  font-weight: 500;
+  font-size: 8px;
+}
