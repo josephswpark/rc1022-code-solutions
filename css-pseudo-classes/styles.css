@@ -1,0 +1,19 @@
+input {
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+input:hover {
+  background-color: black;
+  color: white;
+}
+
+th {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background: lightgray;
+}
