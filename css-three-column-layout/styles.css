@@ -19,12 +19,19 @@ h1 {
 }
 
 .column-full {
+  flex-basis: 100%;
+}
+
+.header {
   color: white;
   text-align: center;
 }
 
 .column-third {
   flex-basis: calc(100% / 3);
+}
+
+.column-third-styles {
   padding: 0 10px;
   width: 100%;
   text-align: center;
