@@ -1,0 +1,27 @@
+body {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: karla;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  color: #474747;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  text-align: center;
+  margin: 20px 70px;
+}
