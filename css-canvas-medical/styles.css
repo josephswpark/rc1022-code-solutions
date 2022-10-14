@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+}
+
+.column-half {
+  flex-basis: calc(100% / 2);
+}
+
+.foot {
+  text-align: left;
+}
