@@ -13,33 +13,26 @@
 #bulbasaur {
   /* your code here */
   position: relative;
-  right: 625px;
 }
 
 #charmander {
   /* your code here */
   position: relative;
-  right: 622px;
-  top: 41px;
 }
 
 #squirtle {
   /* your code here */
   position: relative;
-  right: 623px;
-  top: 78px;
+
 }
 
 #pikachu {
   /* your code here */
   position: relative;
-  right: 625px;
   top: 160px;
 }
 
 #jigglypuff {
   /* your code here */
   position: relative;
-  right: 630px;
-  top: 325px;
 }
