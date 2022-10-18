@@ -13,7 +13,7 @@ var orderHistory = [
         image: 'images/jv.png',
         returnBy: 'Sep 7, 2020',
         retailPrice: 31.55,
-        deliveredTo: 'Your package was delivered.It was handed directly to a resident.'
+        deliveredTo: 'resident'
       }
     ]
   },
@@ -30,7 +30,7 @@ var orderHistory = [
         author: 'Alexander, Christopher',
         retailPrice: 41.33,
         image: 'images/images2.png',
-        deliveredTo: 'Your package was delivered.It was handed directly to a resident.',
+        deliveredTo: 'resident',
         returnBy: 'Aug 19, 2020'
       }
     ]
@@ -46,7 +46,7 @@ var orderHistory = [
         name: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for WII U, PC.Support Turbo and Vibration Features.No Driver and No Lag- Gamecube Adapter ',
         image: 'images/images3.png',
         retailPrice: 15.98,
-        deliveredTo: 'Your package was delivered.It was handed directly to a resident.',
+        deliveredTo: 'resident',
         returnBy: 'Aug 5, 2020'
       }
     ]
