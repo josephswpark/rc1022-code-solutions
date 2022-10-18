@@ -1,0 +1,52 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-quarter {
+  flex-basis: calc(100% / 4);
+}
+
+.guidance {
+  text-align: center;
+}
+
+.screen-styles {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin-left: 480px;
+}
+
+.screens {
+  width: ;
+}
+
+.logo {
+  width: 20%;
+  margin: 0;
+}
