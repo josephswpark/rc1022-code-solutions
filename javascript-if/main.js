@@ -52,16 +52,22 @@ function isOldEnoughToDrive(person) {
   }
 }
 
-var isOldEnoughToDrinkAndDrive = false;
+function isOldEnoughToDrinkAndDrive(person) {
+  if (person.age >= 16 && person.age >= 21) {
+    return false;
+  } else {
+    return false;
+  }
+}
 
 function categorizeAcidity(pH) {
   if (pH === 7) {
     return 'neutral';
-  } if (pH < 7 && pH > 0) {
+  } else if (pH < 7 && pH >= 0) {
     return 'acid';
-  } if (pH > 7 && pH < 14) {
+  } else if (pH > 7 && pH <= 14) {
     return 'base';
-  } if (pH < 0 || pH > 14) {
+  } else if (pH < 0 || pH > 14) {
     return 'invalid pH level';
   }
 }
