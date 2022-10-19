@@ -1,0 +1,70 @@
+body {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: "DM Sans";
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  border-right: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+.column-fifth {
+  flex-basis: calc(100% / 5);
+}
+
+.row-style {
+  width: 50%;
+  padding-left: 100px;
+}
+
+img {
+  width: 250px;
+}
+
+.items {
+  margin-right: 20px;
+}
+
+.lv {
+  margin-top: 38px;
+}
+
+.description {
+  width: 150px;
+  display: inline-block;
+}
+
+.size {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.asdf {
+  display: flex;
+  padding-left: 8px;
+  line-height: 0px;
+}
+
+.retail {
+  padding-left: 10px;
+}
