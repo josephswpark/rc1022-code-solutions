@@ -9,25 +9,25 @@
  */
 function isUnderFive(number) {
   if (number < 5) {
-    return 'True';
+    return true;
   } else {
-    return 'False';
+    return false;
   }
 }
 
 function isEven(number) {
   if (number % 2 === 0) {
-    return 'True';
+    return true;
   } else {
-    return 'False';
+    return false;
   }
 }
 
 function startsWithJ(string) {
   if (string[0] === 'J') {
-    return 'true';
+    return true;
   } else {
-    return 'False';
+    return false;
   }
 }
 
@@ -37,7 +37,7 @@ var bart = {
 };
 function isOldEnoughToDrink(person) {
   if (bart.age < 21) {
-    return 'False';
+    return false;
   }
 }
 
@@ -48,11 +48,11 @@ var homer = {
 
 function isOldEnoughToDrive(person) {
   if (homer.age > 18) {
-    return 'True';
+    return true;
   }
 }
 
-var isOldEnoughToDrinkAndDrive = 'False';
+var isOldEnoughToDrinkAndDrive = false;
 
 function categorizeAcidity(pH) {
   if (pH === 7) {
