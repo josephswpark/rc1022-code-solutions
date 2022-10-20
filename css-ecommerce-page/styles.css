@@ -32,6 +32,10 @@ h3 {
   flex-basis: calc(100% / 5);
 }
 
+.header {
+  padding-top: 20px;
+}
+
 .row-style {
   width: 50%;
   padding-left: 100px;
@@ -55,16 +59,30 @@ img {
 }
 
 .size {
-  padding-top: 5px;
+  padding-top: 6.5px;
   padding-left: 10px;
+  color: #d6d6d6;
 }
 
-.asdf {
+.price {
   display: flex;
-  padding-left: 8px;
-  line-height: 0px;
+  padding-left: 5px;
 }
 
 .retail {
+  color: #d6d6d6;
   padding-left: 10px;
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.discount {
+  background-color: #fff2e7;
+  margin-top: 0;
+}
+
+.title {
+  border-right-style: inset;
+  border-width: 2px;
+  padding-right: 4px;
 }
