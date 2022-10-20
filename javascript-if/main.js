@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* exported isUnderFive,
             isEven,
             startsWithJ,
@@ -36,7 +37,7 @@ var bart = {
   age: 10
 };
 function isOldEnoughToDrink(person) {
-  if (bart.age < 21) {
+  if (person.age < 21) {
     return false;
   }
 }
@@ -47,7 +48,7 @@ var homer = {
 };
 
 function isOldEnoughToDrive(person) {
-  if (homer.age > 18) {
+  if (person.age > 18) {
     return true;
   }
 }
