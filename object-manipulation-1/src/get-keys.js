@@ -2,7 +2,7 @@
 
 /*
 inout: object
-
+get the key of an object
 output: an array of object's property keys
 
 */
