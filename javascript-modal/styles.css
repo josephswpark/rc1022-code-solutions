@@ -1,0 +1,34 @@
+.trigger {
+  background-color: #4a4ae9;
+  color: #fcfdfe;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px 8px;
+  font-size: 25px;
+}
+
+.modal {
+  position: fixed;
+  visibility: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+.show-modal {
+  visibility: visible;
+  transition: visibility 0.5s;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+}
+
+.no-button {
+  color: white;
+  background-color: #eb5d5d;
+  border: none;
+  font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
