@@ -1,0 +1,13 @@
+.box {
+  margin-top: 800px;
+}
+
+body {
+  font-size: 70px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  padding-right: 45px;
+}
