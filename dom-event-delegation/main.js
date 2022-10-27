@@ -7,7 +7,7 @@ function taskList(event) {
   if (event.target && event.target.matches('button')) {
     var lists = event.target.closest('.task-list-item');
     console.log(lists);
-    lists.remove('.task-list-item');
+    lists.remove('.task-list-list');
   }
 }
 
