@@ -1,0 +1,40 @@
+.container {
+  width: 275px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  border: none;
+  display: block;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 450px;
+}
+
+.light {
+  background-color: rgb(254 249 241);
+}
+
+.button.lights {
+  background-color: #faea84;
+  box-shadow: 0 0 16px 12px #fff4d1;
+}
+
+.off {
+  background-color: #111;
+}
+
+.button.offs {
+  background-color: #252525;
+  box-shadow: 0 -5px 0 5px rgb(12 12 12);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  top: 3px;
+}
