@@ -4,6 +4,7 @@ var noButton = document.querySelector('.no-button');
 
 trigger.addEventListener('click', function () {
   modal.classList.toggle('show-modal');
+
 });
 
 noButton.addEventListener('click', function () {
