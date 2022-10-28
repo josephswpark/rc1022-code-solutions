@@ -32,17 +32,17 @@ body {
 
 /* your code 👇 here */
 @media only screen and (min-width: 576px) {
-  .row > .col-sm-half {
+  .col-sm-half {
     width: 50%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .row > .col-lg-third {
-    width: 33.33%;
+  .col-lg-third {
+    width: calc(100% / 3);
   }
 
-  .row > .col-lg-fourth {
+  .col-lg-fourth {
     width: 25%;
   }
 }
