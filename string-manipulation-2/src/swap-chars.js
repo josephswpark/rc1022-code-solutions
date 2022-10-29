@@ -1,16 +1,19 @@
 /* exported swapChars */
 
 // input: a string
-// change the first index of a string with the with another index
+// get the firstIndex you want to change
+// and replace it with the secondIndex of a string
+//
+// get the firstIndex of a string
+// replace it at the spot of a secondIndex + 1 into the new string
 // return a string that is swapped
 
 function swapChars(firstIndex, secondIndex, string) {
-  // return string.split(string[firstIndex]);
-  // string.replace(string[firstIndex], string[secondIndex]);
-
   return string.substring(0, firstIndex) +
     string[secondIndex] +
     string.substring(firstIndex + 1, secondIndex) +
     string[firstIndex] +
     string.substring(secondIndex + 1);
 }
+
+// example: swapChars(0, 4, 'React') --> return 'teacR'
