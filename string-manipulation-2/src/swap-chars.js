@@ -15,5 +15,3 @@ function swapChars(firstIndex, secondIndex, string) {
     string[firstIndex] +
     string.substring(secondIndex + 1);
 }
-
-// example: swapChars(0, 4, 'React') --> return 'teacR'
