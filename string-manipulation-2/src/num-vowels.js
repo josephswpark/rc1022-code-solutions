@@ -1,4 +1,9 @@
 /* exported numVowels */
+/* input: string
+do a for loop and run an if statement check for all the vowels including capitaled
+
+output: count of vowels present in a string
+*/
 
 function numVowels(string) {
   var vowelCount = 0;
