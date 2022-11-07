@@ -13,12 +13,12 @@ Goal: make a new object with specified property and value
 */
 
 function pick(source, keys) {
-  var pickedObject = {};
-  var sourceObjectKeys = Object.keys(source); // becomes an array of keys in the source
-  for (var i = 0; i < Object.length + 1; i++) {
-    if (sourceObjectKeys.includes(keys[i])) {
-      pickedObject[keys[i]] = source[keys[i]]; // source[keys[i]] is getting the value, not the key it self because of the bracket notation
+  var newObject = {};
+  for (var key of keys) {
+    var value = source[key];
+    if (value !== undefined) {
+      newObject[key] = value;
     }
   }
-  return pickedObject;
+  return newObject;
 }
