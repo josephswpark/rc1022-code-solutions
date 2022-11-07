@@ -3,10 +3,6 @@ var currentIndex = 0;
 document.addEventListener('keydown', typingTest);
 
 function typingTest(event) {
-  if (currentIndex === charNodes.length) {
-    alert('DONE! Restarting Test....');
-    window.location.reload();
-  }
   if (event.keyCode !== 8) {
     checkCharacterIsValid(event.key, currentIndex);
   }
@@ -28,7 +24,7 @@ function updateCurrentIndex(keyCode) {
 }
 function checkCharacterIsValid(currentChar, charIndex) {
   var currentNode = charNodes[charIndex];
-  if (currentChar === currentNode.innerHTML) {
+  if (currentChar === currentNode.textContent) {
     currentNode.className = 'correct';
   } else {
     currentNode.className = 'incorrect';
