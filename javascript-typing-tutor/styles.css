@@ -1,0 +1,32 @@
+.container {
+  margin-top: 350px;
+  width: 100%;
+}
+
+body {
+  font-size: 70px;
+  font-family: ;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.correct {
+  color: #18cd1c;
+}
+
+.incorrect {
+  color: #f80606;
+}
+
+.characters-display {
+  white-space: pre;
+}
+
+.current {
+  text-decoration-line: underline;
+  text-underline-position: under;
+}
