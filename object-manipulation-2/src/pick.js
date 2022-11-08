@@ -1,15 +1,12 @@
 /* exported pick */
 /*
-input: source = object & keys - an array of the property name
-
-new empty object so that we can set the property keys and values
-
-Object.keys will return an array of the keys of the given object
-loop through the array of keys
-check if the key is found in the source object
-if it is, we want to set the key and value for the matched pair in our new object "pickedObject"
-
-Goal: make a new object with specified property and value
+input: source is an object & keys is an array
+1. create a new data storage of an object
+2. check for properties in the array of keys
+3. declare a variable to the value of source keys
+4. if value is not undefined
+5. assign the value into the newObject[key]
+output: make a new object with keys:value that match keys to source
 */
 
 function pick(source, keys) {
