@@ -5,17 +5,6 @@ function Student(firstName, lastName, subject) {
   this.subject = subject;
 }
 
-// eslint-disable-next-line no-redeclare, no-unused-vars
-var student = {
-  firstName: 'firstName',
-  lastName: 'lastName',
-  subject: 'subject',
-  getFullName: function () {
-    return this.firstName + ' ' + this.lastName;
-  }
-
-};
-
 Student.prototype.getFullName = function () {
   return this.firstName + ' ' + this.lastName;
 };
