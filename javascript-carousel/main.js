@@ -1,196 +1,86 @@
-var imageCount = 1;
+var imgArray = [
+  'images/025.png',
+  'images/001.png',
+  'images/004.png',
+  'images/007.png',
+  'images/039.png'];
+
+var currentIndex = 0;
 var intervalId = setInterval(goThruImages, 3000);
 
 var image = document.querySelector('.each-image');
-var icon1 = document.querySelector('.one');
-var icon2 = document.querySelector('.two');
-var icon3 = document.querySelector('.three');
-var icon4 = document.querySelector('.four');
-var icon5 = document.querySelector('.five');
+
+var circleList = document.querySelectorAll('.fa-circle');
+var circleContainer = document.querySelector('.carousel-circles');
 
 function goThruImages() {
-  imageCount++;
-  if (imageCount === 2) {
-    image.setAttribute('src', 'images/001.png');
-    icon1.classList.replace('fa-solid', 'fa-regular');
-    icon2.classList.replace('fa-regular', 'fa-solid');
+  if (currentIndex === imgArray.length - 1) {
+    circleList[currentIndex].classList.replace('fa-solid', 'fa-regular');
+    currentIndex = 0;
+    image.setAttribute('src', imgArray[currentIndex]);
+    circleList[currentIndex].classList.replace('fa-regular', 'fa-solid');
+  } else {
+    circleList[currentIndex].classList.replace('fa-solid', 'fa-regular');
+    currentIndex++;
+    image.setAttribute('src', imgArray[currentIndex]);
+    circleList[currentIndex].classList.replace('fa-regular', 'fa-solid');
   }
-  if (imageCount === 3) {
-    image.setAttribute('src', 'images/004.png');
-    icon2.classList.replace('fa-solid', 'fa-regular');
-    icon3.classList.replace('fa-regular', 'fa-solid');
-  }
-  if (imageCount === 4) {
-    image.setAttribute('src', 'images/007.png');
-    icon3.classList.replace('fa-solid', 'fa-regular');
-    icon4.classList.replace('fa-regular', 'fa-solid');
-  }
-  if (imageCount === 5) {
-    image.setAttribute('src', 'images/039.png');
-    icon4.classList.replace('fa-solid', 'fa-regular');
-    icon5.classList.replace('fa-regular', 'fa-solid');
-  }
-  if (imageCount > 5) {
-    image.setAttribute('src', 'images/025.png');
-    icon5.classList.replace('fa-solid', 'fa-regular');
-    icon1.classList.replace('fa-regular', 'fa-solid');
-    imageCount = 1;
-  }
+  updateImage();
 }
 
 var rightArrow = document.querySelector('.right-arrow');
-rightArrow.addEventListener('click', goToTheNextImageButton);
+rightArrow.addEventListener('click', clickRight);
 
-function goToTheNextImageButton(event) {
-  imageCount++;
-
+function clickRight(event) {
   if (event.target && event.target.matches('.right-arrow')) {
     clearInterval(intervalId);
-    intervalId = setInterval(goThruImages, 3000);
   }
-  if (imageCount === 2) {
-    image.setAttribute('src', 'images/001.png');
-    icon1.classList.replace('fa-solid', 'fa-regular');
-    icon2.classList.replace('fa-regular', 'fa-solid');
+  if (currentIndex === imgArray.length - 1) {
+    circleList[currentIndex].classList.replace('fa-solid', 'fa-regular');
+    currentIndex = 0;
+    circleList[currentIndex].classList.replace('fa-regular', 'fa-solid');
+  } else {
+    circleList[currentIndex].classList.replace('fa-solid', 'fa-regular');
+    currentIndex++;
+    circleList[currentIndex].classList.replace('fa-regular', 'fa-solid');
   }
-  if (imageCount === 3) {
-    image.setAttribute('src', 'images/004.png');
-    icon2.classList.replace('fa-solid', 'fa-regular');
-    icon3.classList.replace('fa-regular', 'fa-solid');
-  }
-  if (imageCount === 4) {
-    image.setAttribute('src', 'images/007.png');
-    icon3.classList.replace('fa-solid', 'fa-regular');
-    icon4.classList.replace('fa-regular', 'fa-solid');
-  }
-  if (imageCount === 5) {
-    image.setAttribute('src', 'images/039.png');
-    icon4.classList.replace('fa-solid', 'fa-regular');
-    icon5.classList.replace('fa-regular', 'fa-solid');
-  }
-  if (imageCount > 5) {
-    image.setAttribute('src', 'images/025.png');
-    icon5.classList.replace('fa-solid', 'fa-regular');
-    icon1.classList.replace('fa-regular', 'fa-solid');
-    imageCount = 1;
-  }
+  intervalId = setInterval(goThruImages, 3000);
+  updateImage();
 }
 
 var leftArrow = document.querySelector('.left-arrow');
-leftArrow.addEventListener('click', goToPreviousImage);
+leftArrow.addEventListener('click', clickLeft);
 
-function goToPreviousImage(event) {
-  imageCount--;
+function clickLeft(event) {
   if (event.target && event.target.matches('.left-arrow')) {
     clearInterval(intervalId);
     intervalId = setInterval(goThruImages, 3000);
   }
-  if (imageCount === 0) {
-    image.setAttribute('src', 'images/039.png');
-    icon5.classList.replace('fa-regular', 'fa-solid');
-    icon1.classList.replace('fa-solid', 'fa-regular');
-    icon4.classList.replace('fa-solid', 'fa-regular');
-    imageCount = 5;
+  if (currentIndex === 0) {
+    circleList[currentIndex].classList.replace('fa-solid', 'fa-regular');
+    currentIndex = imgArray.length - 1;
+    circleList[currentIndex].classList.replace('fa-regular', 'fa-solid');
+  } else {
+    circleList[currentIndex].classList.replace('fa-solid', 'fa-regular');
+    currentIndex--;
+    circleList[currentIndex].classList.replace('fa-regular', 'fa-solid');
   }
-  if (imageCount === 1) {
-    image.setAttribute('src', 'images/025.png');
-    icon1.classList.replace('fa-regular', 'fa-solid');
-    icon2.classList.replace('fa-solid', 'fa-regular');
-  }
-  if (imageCount === 2) {
-    image.setAttribute('src', 'images/001.png');
-    icon2.classList.replace('fa-regular', 'fa-solid');
-    icon3.classList.replace('fa-solid', 'fa-regular');
-  }
-  if (imageCount === 3) {
-    image.setAttribute('src', 'images/004.png');
-    icon3.classList.replace('fa-regular', 'fa-solid');
-    icon4.classList.replace('fa-solid', 'fa-regular');
-  }
-  if (imageCount === 4) {
-    image.setAttribute('src', 'images/007.png');
-    icon4.classList.replace('fa-regular', 'fa-solid');
-    icon5.classList.replace('fa-solid', 'fa-regular');
-  }
+  updateImage();
 }
 
-var circleOne = document.querySelector('.one');
-var circleTwo = document.querySelector('.two');
-var circleThree = document.querySelector('.three');
-var circleFour = document.querySelector('.four');
-var circleFive = document.querySelector('.five');
-
-circleOne.addEventListener('click', clickToGoToOne);
-function clickToGoToOne(event) {
-  if (event.target && event.target.matches('.one')) {
-    clearInterval(intervalId);
-    intervalId = setInterval(goThruImages, 3000);
-    imageCount = 1;
-    image.setAttribute('src', 'images/025.png');
-    icon1.classList.replace('fa-regular', 'fa-solid');
-    icon5.classList.replace('fa-solid', 'fa-regular');
-    icon4.classList.replace('fa-solid', 'fa-regular');
-    icon3.classList.replace('fa-solid', 'fa-regular');
-    icon2.classList.replace('fa-solid', 'fa-regular');
-  }
+function updateImage() {
+  image.setAttribute('src', imgArray[currentIndex]);
 }
 
-circleTwo.addEventListener('click', clickToGoToTwo);
-function clickToGoToTwo(event) {
-  if (event.target && event.target.matches('.two')) {
-    clearInterval(intervalId);
-    intervalId = setInterval(goThruImages, 3000);
-    imageCount = 2;
-    image.setAttribute('src', 'images/001.png');
-    icon2.classList.replace('fa-regular', 'fa-solid');
-    icon5.classList.replace('fa-solid', 'fa-regular');
-    icon4.classList.replace('fa-solid', 'fa-regular');
-    icon3.classList.replace('fa-solid', 'fa-regular');
-    icon1.classList.replace('fa-solid', 'fa-regular');
-  }
-}
+circleContainer.addEventListener('click', updateButtons);
 
-circleThree.addEventListener('click', clickToGoToThree);
-function clickToGoToThree(event) {
-  if (event.target && event.target.matches('.three')) {
+function updateButtons(event) {
+  if (event.target && event.target.classList.contains('fa-circle')) {
     clearInterval(intervalId);
+    circleList[currentIndex].classList.replace('fa-solid', 'fa-regular');
+    currentIndex = parseInt(event.target.getAttribute('id'));
+    circleList[currentIndex].classList.replace('fa-regular', 'fa-solid');
+    updateImage();
     intervalId = setInterval(goThruImages, 3000);
-    imageCount = 3;
-    image.setAttribute('src', 'images/004.png');
-    icon3.classList.replace('fa-regular', 'fa-solid');
-    icon5.classList.replace('fa-solid', 'fa-regular');
-    icon4.classList.replace('fa-solid', 'fa-regular');
-    icon1.classList.replace('fa-solid', 'fa-regular');
-    icon2.classList.replace('fa-solid', 'fa-regular');
-  }
-}
-
-circleFour.addEventListener('click', clickToGoToFour);
-function clickToGoToFour(event) {
-  if (event.target && event.target.matches('.four')) {
-    clearInterval(intervalId);
-    intervalId = setInterval(goThruImages, 3000);
-    imageCount = 4;
-    image.setAttribute('src', 'images/007.png');
-    icon4.classList.replace('fa-regular', 'fa-solid');
-    icon5.classList.replace('fa-solid', 'fa-regular');
-    icon1.classList.replace('fa-solid', 'fa-regular');
-    icon3.classList.replace('fa-solid', 'fa-regular');
-    icon2.classList.replace('fa-solid', 'fa-regular');
-  }
-}
-
-circleFive.addEventListener('click', clickToGoToFive);
-function clickToGoToFive(event) {
-  if (event.target && event.target.matches('.five')) {
-    clearInterval(intervalId);
-    intervalId = setInterval(goThruImages, 3000);
-    imageCount = 5;
-    image.setAttribute('src', 'images/039.png');
-    icon5.classList.replace('fa-regular', 'fa-solid');
-    icon1.classList.replace('fa-solid', 'fa-regular');
-    icon4.classList.replace('fa-solid', 'fa-regular');
-    icon3.classList.replace('fa-solid', 'fa-regular');
-    icon2.classList.replace('fa-solid', 'fa-regular');
   }
 }
