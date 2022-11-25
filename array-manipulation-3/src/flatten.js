@@ -8,11 +8,14 @@
 function flatten(array) {
   var newArray = [];
   for (var i = 0; i < array.length; i++) {
-    if (!Array.isArray(array[i])) {
-      newArray.push(array[i]);
+    var currentArray = array[i];
+    // console.log(currentArray);
+    // console.log(!Array.isArray(currentArray));
+    if (!Array.isArray(currentArray)) {
+      newArray.push(currentArray);
     } else {
-      for (var j = 0; j < newArray.length; j++) {
-        newArray.push(newArray[j]);
+      for (var j = 0; j < currentArray.length; j++) {
+        newArray.push(currentArray[j]);
       }
     }
   }
