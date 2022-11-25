@@ -5,17 +5,16 @@
 // if it's true, push that index into the new array storage
 // output: a new array without the child array
 
-// function flatten(array) {
-//   var newArray = [];
-//   for (var i = 0; i < array.length; i++) {
-//     if (!Array.isArray(array[i])) {
-//       newArray.push(array[i]);
-//       console.log(newArray);
-//     } else {
-//       for (var j = 0; j < newArray.length; j++) {
-//         newArray.push(newArray[j]);
-//       }
-//     }
-//   }
-//   return newArray;
-// }
+function flatten(array) {
+  var newArray = [];
+  for (var i = 0; i < array.length; i++) {
+    if (!Array.isArray(array[i])) {
+      newArray.push(array[i]);
+    } else {
+      for (var j = 0; j < newArray.length; j++) {
+        newArray.push(newArray[j]);
+      }
+    }
+  }
+  return newArray;
+}
