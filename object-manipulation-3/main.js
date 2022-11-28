@@ -14,6 +14,21 @@ console.log('Lodash is loaded:', typeof _ !== 'undefined');
 // need to get the first two array to deal to each player - use .splice()
 // assign two cards to players[i].hand
 // return players
+// calculate score
+// create an array for storage
+// create a for loop to iterate through each players object
+// assign 0 to totalScore to update the score depending on the card
+// create another for loop to interate through the player's hand's rank
+// if the rank = ace, update totalscore to 11
+// else if the rank = jack, queen, king then update totalscore to 10
+// else update the total score of the other numbers but turn that string to integer
+// push the total score into the array
+// repeat until the for loop conditionals is not met
+// return the array
+// calculate the highest score of the array from scores()
+// create a function to get the winner
+// create a for loop to check through the scores
+// if the scores in the array is strictly equal to the highest score, show the winner!
 
 var players = [
   { name: 'Joseph', hand: null },
@@ -35,7 +50,7 @@ function cardDeck() {
   }
   return deck;
 }
-console.log(cardDeck());
+cardDeck();
 
 function shuffle(deck) {
   for (var i = 0; i < deck.length; i++) {
@@ -44,8 +59,7 @@ function shuffle(deck) {
   }
   return deck;
 }
-
-console.log(shuffle(deck));
+shuffle(deck);
 
 function deal(deck) {
   for (var i = 0; i < players.length; i++) {
@@ -54,4 +68,38 @@ function deal(deck) {
   }
   return players;
 }
-console.log(deal(deck));
+deal(deck);
+
+function scores() {
+  var handArray = [];
+  for (var i = 0; i < players.length; i++) {
+    var totalScore = 0;
+    for (var x = 0; x < players[i].hand.length; x++) {
+      if (players[i].hand[x].rank === 'Ace') {
+        totalScore += 11;
+      } else if (players[i].hand[x].rank === 'Jack' || players[i].hand[x].rank === 'Queen' || players[i].hand[x].rank === 'King') {
+        totalScore += 10;
+      } else {
+        totalScore += parseInt(players[i].hand[x].rank);
+      }
+    }
+    handArray.push(totalScore);
+  }
+  return handArray;
+}
+
+scores();
+
+var highestScore = _.max(scores());
+
+function winner() {
+  for (var w = 0; w < scores().length; w++) {
+    if (scores()[w] === highestScore) {
+      console.log('Players:', players);
+      console.log('Scores:', scores());
+      console.log('Winner\'s score:', highestScore);
+      console.log('Winner\'s name:', players[w].name);
+    }
+  }
+}
+winner();
