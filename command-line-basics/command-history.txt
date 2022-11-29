@@ -1,0 +1,500 @@
+  103  git add css-responsive-layout
+  104  git commit -m "updated layout"
+  105  git push origin css-responsive-layout
+  106  git switch main
+  107  git branch javascript-and-json
+  108  git switch javascript-and-json
+  109  git add javascript-and-json
+  110  git commit -m "completed json"
+  111  git push origin javascript-and-json
+  112  git switch main
+  113  git pull origin main
+  114  git branch javascript-local-storage
+  115  git switch javascript-local-storage
+  116  git add javascript-local-storage
+  117  git commit -m "completed local storage"
+  118  git add javascript-local-storage
+  119  git commit -m "completed js-local-storage"
+  120  git push origin javascript-local-storage
+  121  git switch main
+  122  git branch string-manipulation-2
+  123  git switch string-manipulation-2
+  124  git add string-maninpulation-2
+  125  git add string-manipulation-2
+  126  git commit -m "in progress"
+  127  git switch main
+  128  git switch javascript-local-storage
+  129  git add javascript-local-storage
+  130  git commit -m "updated local-storage"
+  131  git push origin javascript-local-storage
+  132  git switch main
+  133  git switch string-manipulation-1
+  134  git switch main
+  135  git switch string-manipulation-2
+  136  git add string-manipulation-2
+  137  git add string-manipulation-2
+  138  git commit -m "completed string manip2"
+  139  git push origin string-manipulation-2
+  140  git switch main
+  141  git add string-manipulation-2
+  142  git commit -m "updated string-manip2"
+  143  git push origin string-manipulation-2
+  144  git switch main
+  145  git pull origin main
+  146  git switch string-manipulation-2
+  147  git switch main
+  148  git add strig-manipulation-2
+  149  git add string-manipulation-2
+  150  git commit -m "updated string-manip2"
+  151  git push origin string-manipulation-2
+  152  git switch main
+  153  git branch array-manipulation-2
+  154  git switch array-manipulation-2
+  155  git add array-manipulation-2
+  156  git commit -m "array manip2"
+  157  git push origin array-manipulation-2
+  158  git switch main
+  159  git switch string-manipulation-2
+  160  git switch main
+  161  git switch string-manipulation-2
+  162  git add string-manipulation-2
+  163  git commit -m "updated string-manipulation-2"
+  164  git push origin string-manipulation-2
+  165  git switch main
+  166  git pull origin main
+  167  git switch object-manipulation-2
+  168  git branch object-manipulation-2
+  169  git switch object-manipulation-2
+  170  git add src/pick.js
+  171  git add object-manipulation-2
+  172  git commit -m "in progress" 
+  173  git switch main
+  174  object-manipulation-2
+  175  git switch object-manipulation-2
+  176  git add object-manipulation-2
+  177  git commit -m "in progress"
+  178  git add object-manipulation-2
+  179  git commit -m "in progress"
+  180  git switch main
+  181  git status
+  182  git switch object-manipulation-2
+  183  git add src/invert.js src/omit.js
+  184  git add object-manipulation-2
+  185  git commit -m "completed object-manipulation-2"
+  186  git commit "completd object manipulation 2" 
+  187  git push origin object-manipulation-2
+  188  git status 
+  189  git add object-manipulation-2/src/defaults.js
+  190  git commit -m "completed obj manipulation-2"
+  191  git push origin object-manipulation-2
+  192  git switch main
+  193  git add object-manipulation-2
+  194  git commit -m "completed obj-manip-2"
+  195  git commit -m "completed obj-manipulation-2" --no-verify
+  196  git push origin object-manipulation-2
+  197  git switch main
+  198  git switch javascript-typing-tuor
+  199  git switch javascript-typing-tutor
+  200  git add javascript-typing-tutor/main.js
+  201  git commit -m "updated typing-tutor" 
+  202  git push origin javascript-typing-tutor
+  203  git switch main
+  204  git branch javascript-custom-methods
+  205  git switch javascript-custom-methods
+  206  git add javascript-custom-methods
+  207  git commit -m "completed js custom methods"
+  208  git push origin javascript-custom-methods
+  209  git switch main
+  210  git pull origin main
+  211  git branch javascript-this
+  212  git swtich javascript-this
+  213  git switch javascript-this
+  214  git add javascript-this
+  215  git commit -m "completed js-this"
+  216  git push origin javascript-this
+  217  git switch main
+  218  git switch string-manipulation-2
+  219  git add string-manipulation-2
+  220  git commit -m "updated string-manipulation-2"
+  221  git push origin string-manipulation-2
+  222  git add string-manipulation-2
+  223  git commit -m "new string-manipulation-2"
+  224  git push origin string-manipulation-2
+  225  git switch main
+  226  git switch object-manipulation-2
+  227  git switch main
+  228  git switch main
+  229  git pull origin main
+  230  git branch javascript-prototypes
+  231  git switch javascript-prototypes
+  232  git add javascript-prototypes
+  233  git commit -m "completed js prototypes"
+  234  git push origin javascript-prototypes
+  235  git switch main
+  236  git switch object-manipulation-2
+  237  git add object-manipulation-2
+  238  git commit -m "update in progress"
+  239  git add object-manipulation-2
+  240  git commit -m "update in progress"
+  241  git switch main
+  242  git branch javascript-constructors
+  243  git switch javascript-constructors
+  244  git add javascript-constructors
+  245  git commit -m "completed js-constructors"
+  246  git add javascript-constructors
+  247  git commit -m "completed js-constructors"
+  248  git push origin javascript-constructors
+  249  git switch main
+  250  git switch object-manipulation-2
+  251  git add object-manipulation-2
+  252  git commit -m "in progress" 
+  253  git add object-manipulation-2
+  254  git commit -m "in progress"
+  255  git switch main
+  256  git switch javascript-constructors
+  257  git add javascript-constructors
+  258  git commit -m "updated js-constructors"
+  259  git push origin javascript-constructors
+  260  git switch main
+  261  git switch object-manipulation-2
+  262  git add object-manipulation-2
+  263  git commit -m "updated object-manipulation-2"
+  264  git push origin object-manipulation-2
+  265  git switch main
+  266  git pull origin main
+  267  git branch javascript-bank
+  268  git switch javascript-bank
+  269  git add javascript-bank
+  270  git commit -m "completed js-bank"
+  271  git push origin javascript-bank
+  272  git switch main
+  273  git branch javascript-timers
+  274  git switch javascript-timers
+  275  git add javascript-timers
+  276  git commit -m "completed js-timers"
+  277  git push origin javascript-timers
+  278  git switch main
+  279  git status
+  280  git pull origin main
+  281  git branch javascript-carousel
+  282  git switch javascript-carousel
+  283  git add javascript-carousel
+  284  git commit -m "completed js-carousel"
+  285  git push origin javascript-carousel
+  286  git switch main
+  287  git status
+  288  git switch javascript-carousel
+  289  git switch main
+  290  git branch http-messages
+  291  git switch http-messages
+  292  http http://www.example.com
+  293  http --verbose http://www.example.com
+  294  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  295  http -body GET https://example.com > http-messages/index.html
+  296  git add http-messages
+  297  git commit -m "complted http-messages"
+  298  git push origin main
+  299  git push origin http-messages
+  300  git switch main
+  301  git pull origin main
+  302  git switch javascript-carousel
+  303  git add javascript-carousel
+  304  git commit -m "updated carousel"
+  305  git push origin javascript-carousel
+  306  git switch main
+  307  git branch javascript-ajax
+  308  git switch javascript-ajax
+  309  git add javascript-ajax
+  310  git commit -m "completed js-ajax"
+  311  git push origin javascript-ajax
+  312  git switch main
+  313  git pull origin main
+  314  git pull origin main
+  315  http https://api-nba-v1.p.rapidapi.com/teams X-RapidAPI-Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X-RapidAPI-Host==api-nba-v1.p.rapidapi.com
+  316  http https://api-nba-v1.p.rapidapi.com/teams X-RapidAPI-Key=='1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4' X-RapidAPI-Host==api-nba-v1.p.rapidapi.com
+  317  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAP_-Key== 1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X-RapidAPI-Host==api-nba-v1.p.rapidapi.com
+  318  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAP_-Key== 1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X_RapidAPI_Host==api-nba-v1.p.rapidapi.com
+  319  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAP_-Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X-RapidAPI-Host==api-nba-v1.p.rapidapi.com
+  320  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAP_Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X-RapidAPI-Host==api-nba-v1.p.rapidapi.com
+  321  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAP_Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X-RapidAPI-Host==api-nba-v1.p.rapidapi.com
+  322  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAP_Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X-RapidAPI-Host==api-nba-v1.p.rapidapi.com RapidAPI_App==application_6849806p
+  323  http https://api-nba-v1.p.rapidapi.com/teams x-rapidapi-key=='1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4' 
+  324  http https://api-nba-v1.p.rapidapi.com/teams x-rapidapi-key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  325  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAP_Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X-RapidAPI-Host==api-nba-v1.p.rapidapi.com
+  326  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAIP_Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X-RapidAPI-Host==api-nba-v1.p.rapidapi.com
+  327  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAPI_Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 X-RapidAPI-Host==api-nba-v1.p.rapidapi.com
+  328  http https://api-nba-v1.p.rapidapi.com/teams X_RapidAPI_Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  329  http https://api-nba-v1.p.rapidapi.com/teams/X_RapidAPI_Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  330  http https://api-nba-v1.p.rapidapi.com/teams/x-RapidAPI-Key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  331  http https://api-nba-v1.p.rapidapi.com/teams
+  332  http https://api-nba-v1.p.rapidapi.com/teams/user:=@user.json
+  333  http https://api-nba-v1.p.rapidapi.com/teams Origin:rapidapi.com
+  334  http https://api-nba-v1.p.rapidapi.com/teams Origin:1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  335  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapid-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  336  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  337  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=534c3d5524msh65d97bbbbd80ea9p1bc2dajsn9f346d5adb75
+  338  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=534c3d5524msh65d97bbbbd80ea9p1bc2dajsn9f346d5adb75
+  339  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  340  ttp GET https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad
+  341  http https://api.watchmode.com/v1/title/345534/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=source
+  342  https://api.watchmode.com/v1/list-titles/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&source_ids=203,57
+  343  https://api.watchmode.com/v1/list-titles/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&source_ids=203,57
+  344  http https://api.watchmode.com/v1/list-titles/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&source_ids=203,57
+  345  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  346  http https://api-nba-v1.p.rapidapi.com/teams/?x-rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  347  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  348  http https://v2.nba.api-sports.io/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  349  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  350  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 q=="seasons"
+  351  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad/
+  352  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad/
+  353  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  354  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  355  https://api.unsplash.com/photos/?client_id=o6QFpM_HU5P-iAuSvqJ1cg5g7zcfo4XDCsILKOpop9I
+  356  http https://api.unsplash.com/photos/?client_id=o6QFpM_HU5P-iAuSvqJ1cg5g7zcfo4XDCsILKOpop9I
+  357  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_field=name&search_value=Ed%20Wood'
+  358  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_field=name&search_value=Ed%20Wood'
+  359  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_field=name&search_value=Ed%20Wood'
+  360  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_field=name&search_value=Ed%20Wood'
+  361  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_field=name&search_value=Ed%20Wood'
+  362  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_field="name"&search_value="tmdb_type"Ed%20Wood'
+  363  http https://api.watchmode.com/v1/autocomplete-search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_value=Breaking%20bad&search_type=1'
+  364  http https://api.watchmode.com/v1/autocomplete-search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_value=Breaking%20bad&search_type=1
+  365  http https://api.watchmode.com/v1/autocomplete-search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_value=Breaking%20bad&search_type=1
+  366  http https://api-nba-v1.p.rapidapi.com/teams/ 1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4'
+  367  http https://api-nba-v1.p.rapidapi.com/teams/1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  368  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  369  http https://api-nba-v1.p.rapidapi.com/teams/?X-RapidAPI-Key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  370  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  371  http https://api-nba-v1.p.rapidapi.com/teams/?X-RapidAPI-Key="1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4"
+  372  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key="1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4"
+  373  http https://api-nba-v1.p.rapidapi.com/teams/?Rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  374  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key="1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4"
+  375  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 Origin:rapidapi.com
+  376  http https://api-nba-v1.p.rapidapi.com/teams
+  377  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key:1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  378  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key:=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  379  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  380  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4 api-nba-v1.p.rapidapi.com:1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  381  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key==1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  382  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  383  get("https://api-nba-v1.p.rapidapi.com/teams?name=Denver Nuggets");
+  384  http get("https://api-nba-v1.p.rapidapi.com/teams?name=Denver Nuggets");
+  385  http https://api-nba-v1.p.rapidapi.com/teams?name=Los Angeles Lakers/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  386  http https://api-nba-v1.p.rapidapi.com/teams?name=Lakers/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  387  http https://api-nba-v1.p.rapidapi.com/teams/?rapidapi-key=1185b0ab4bmsh6dee4d37d849535p147810jsnf6a6eb8d4ad4
+  388  GET https://api.yelp.com/v3/categories/korean
+  389  http GET https://api.yelp.com/v3/categories/korean
+  390  http https://api.yelp.com/v3/categories/korean
+  391  http https://api.yelp.com/v3/categories
+  392  http https://api.yelp.com/v3/categories/korean Authorization:bearer hOU4RWMSa5wBbt2eL_dJ7534ljUFviC2M1pa1uzJ_2I6x27sIBUVZyMm7TJqGrgjLTgB7fRKLuIU0EYbCpa6UbehbrTq2ZTDTrXMjE8XrABwLr1jEAwOC72XazNvY3Yx
+  393  http https://api.yelp.com/v3/categories/korean Authorization:bearer API_KEY
+  394  http https://api.yelp.com/v3/categories/korean AuthorizationBearer API_KEY
+  395  http https://api.yelp.com/v3/categories/korean Authorization:Bearer hOU4RWMSa5wBbt2eL_dJ7534ljUFviC2M1pa1uzJ_2I6x27sIBUVZyMm7TJqGrgjLTgB7fRKLuIU0EYbCpa6UbehbrTq2ZTDTrXMjE8XrABwLr1jEAwOC72XazNvY3Yx
+  396  http https://api.yelp.com/v3/categories/korean Authorization:Bearer <hOU4RWMSa5wBbt2eL_dJ7534ljUFviC2M1pa1uzJ_2I6x27sIBUVZyMm7TJqGrgjLTgB7fRKLuIU0EYbCpa6UbehbrTq2ZTDTrXMjE8XrABwLr1jEAwOC72XazNvY3Yx>
+  397  http https://api.yelp.com/v3/categories/korean Authorization: Bearer <hOU4RWMSa5wBbt2eL_dJ7534ljUFviC2M1pa1uzJ_2I6x27sIBUVZyMm7TJqGrgjLTgB7fRKLuIU0EYbCpa6UbehbrTq2ZTDTrXMjE8XrABwLr1jEAwOC72XazNvY3Yx>
+  398  http https://api.yelp.com/v3/categories/korean "Authorization: Bearer <hOU4RWMSa5wBbt2eL_dJ7534ljUFviC2M1pa1uzJ_2I6x27sIBUVZyMm7TJqGrgjLTgB7fRKLuIU0EYbCpa6UbehbrTq2ZTDTrXMjE8XrABwLr1jEAwOC72XazNvY3Yx>"
+  399  http https://api.yelp.com/v3/categories/korean
+  400  http https://api.yelp.com/v3/categories "Authorization: Bearer <hOU4RWMSa5wBbt2eL_dJ7534ljUFviC2M1pa1uzJ_2I6x27sIBUVZyMm7TJqGrgjLTgB7fRKLuIU0EYbCpa6UbehbrTq2ZTDTrXMjE8XrABwLr1jEAwOC72XazNvY3>"
+  401  http https://api.yelp.com/v3/categories Authorization: Bearer <hOU4RWMSa5wBbt2eL_dJ7534ljUFviC2M1pa1uzJ_2I6x27sIBUVZyMm7TJqGrgjLTgB7fRKLuIU0EYbCpa6UbehbrTq2ZTDTrXMjE8XrABwLr1jEAwOC72XazNvY3>
+  402  http https://api.thedogapi.com/v1/images/search
+  403  https://cdn2.thedogapi.com/images/DJ_glutgg.jpg
+  404  https://cdn2.thedogapi.com/images/DJ_glutgg.jpg
+  405  https://api.thedogapi.com/v1/images/search
+  406  https://api.thedogapi.com/v1/images/search?category_ids=1
+  407  https://api.thedogapi.com/v1/images
+  408  http https://api.thedogapi.com/v1/images
+  409  http https://api.thedogapi.com/v1/images/search?category_ids=1
+  410  http https://api.thecatapi.com/v1/images/search
+  411  http https://api.thecatapi.com/v1/breeds/search?q=air
+  412  http https://api.edamam.com/api/recipes/v2 type=="public" app_id==2650b516 app_key==3cb1f929f13bbe8da530dc1b794e50a4 mealType=="Lunch" imageSize=="REGULAR"
+  413  http https://api.edamam.com/api/recipes/v2 type=="public" app_id==2650b516 app_key==3cb1f929f13bbe8da530dc1b794e50a4 imageSize=="REGULAR"
+  414  http https://api.edamam.com/api/recipes/v2 type=="public" app_id==2650b516 app_key==3cb1f929f13bbe8da530dc1b794e50a4 imageSize=="REGULAR"
+  415  http https://api.edamam.com/api/recipes/v2 type=="public" app_id==2650b516 app_key==3cb1f929f13bbe8da530dc1b794e50a4
+  416  http https://api.edamam.com/api/recipes/v2 type=="public" app_id==2650b516 app_key==3cb1f929f13bbe8da530dc1b794e50a4
+  417  http https://api.watchmode.com/v1/title/345534/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=title
+  418  http https://api.watchmode.com/v1/title/3173903/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources=
+  419  http https://api.watchmode.com/v1/title/3173903/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_respose=source
+  420  http https://api.watchmode.com/v1/title/3173905/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_respose=source
+  421  http https://api.watchmode.com/v1/type/tv_series/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_respose=source
+  422  http https://api.watchmode.com/v1/title/345534/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=title
+  423  http https://api.watchmode.com/v1/title/342534/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=title
+  424  http https://api.watchmode.com/v1/title/345535/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=title
+  425  http https://api.watchmode.com/v1/title/345535/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=title
+  426  http https://api.watchmode.com/v1/title/345535/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=title
+  427  http https://api.watchmode.com/v1/title/345535/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=title
+  428  http https://api.watchmode.com/v1/title/3173903/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_respose=source
+  429  http https://api.watchmode.com/v1/list-titles/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&source_ids=203,57
+  430  http https://api.watchmode.com/v1/list-titles/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&source_ids=203,57 types=="tv_series"
+  431  http https://api.watchmode.com/v1/title/3178311/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_respose=source
+  432  http https://api.watchmode.com/v1/title/3180045/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_respose=source
+  433  git branch string-manipulation-3
+  434  git switch string-manipulation-3
+  435  git add string-manipulation-3
+  436  git commit -m "in progress"
+  437  git switch main
+  438  'https://api.watchmode.com/v1/title/345534/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources
+  439  http https://api.watchmode.com/v1/title/345534/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources
+  440  http https://api.watchmode.com/v1/title/345534/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=seasons
+  441  'https://api.watchmode.com/v1/title/345534/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources
+  442  'https://api.watchmode.com/v1/title/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources
+  443  'https://api.watchmode.com/v1/title/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources
+  444  http 'https://api.watchmode.com/v1/title/details/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources
+  445  http https://api.watchmode.com/v1/list-titles/?apiKe=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources
+  446  http https://api.watchmode.com/v1/list-titles/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&source_ids=203,57
+  447  http https://api.watchmode.com/v1/list-titles/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&types='tv_series'&limit='20'
+  448  http https://api.watchmode.com/v1/list-titles/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or types=='tv_series' limit==10
+  449  http https://api.watchmode.com/v1/list-titles/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or types=='tv_series' limit==10 genres=='comedy'
+  450  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_field=name&search_value=Game%20of%20Throne
+  451  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_field=name&search_value=Gameofthrone
+  452  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&search_field=name&search_value=reacher
+  453  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or search_field=='name' search_value=='reacher'
+  454  http https://api.watchmode.com/v1/autocomplete-search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or search_value=='Breaking bad' search_type=4
+  455  http https://api.watchmode.com/v1/autocomplete-search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or search_value=='Breaking bad' search_type==4
+  456  http https://api.watchmode.com/v1/autocomplete-search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or search_value=='game of throne' search_type==4
+  457  http 'https://api.watchmode.com/v1/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources {title_id}=='3173903'
+  458  http 'https://api.watchmode.com/v1/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources {title_id}=='3173903'
+  459  http https://api.watchmode.com/v1/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or&append_to_response=sources {title_id}=='3173903'
+  460  http https://api.watchmode.com/v1/search/?apiKey=QE6cb8xjAt1kyYahavgtImCXbtkO5RVOIRNCP3Or search_field=='name' search_value=='breaking bad'
+  461  git switch string-manipulation-3
+  462  git add string-manipulation03
+  463  git add string-manipulation-3
+  464  git commit -m "in progress"
+  465  git add string-manipulation-3
+  466  git commit -m "completed string-manipulation-3"
+  467  git push origin string-manipulation-3
+  468  git status
+  469  git switch main
+  470  git branch array-manipulation-3
+  471  git switch array-manipulation-3
+  472  git add array-manipulation-3
+  473  git commit -m "in progress"
+  474  git status
+  475  git add array-manipulation-3
+  476  git commit -m "in progress"
+  477  git status
+  478  git status
+  479  git add array-manipulation-3
+  480  git commit -m "in progress"
+  481  git status
+  482  git switch main
+  483  git switch array-manipulation-3
+  484  git status
+  485  git switch main
+  486  git switch array-manipulation-3
+  487  git add array-manipulation-3
+  488  git commit -m "in progress"
+  489  git add array-manipulation-3
+  490  git commit -m "completed array-manipulation-3"
+  491  git push origin array-manipulation-3
+  492  git add array-manipulation-3
+  493  git commit -m "updated psedocode for union.js"
+  494  git push origin array-manipulation-3
+  495  git status
+  496  git switch main
+  497  git branch object-manipulation-3
+  498  git switch object-manipulation-3
+  499  git add object-manipulation-3/main.js
+  500  git commit -m "in progress"
+  501  git add object-manipulation-3/main.js
+  502  git commit -m "completed object-manipulation-3"
+  503  git push origin object-manipulation-3
+  504  git switch main
+  505  git branch es6-const-let
+  506  git switch es6-const-let
+  507  git switch main
+  508  git switch object-manipulation-3
+  509  git add object-manipulation-3
+  510  git commit -m "completed obj-manipulation-3"
+  511  git push origin object-manipulation-3
+  512  git status
+  513  git switch main
+  514  git switch es6-const-let
+  515  git add es6-const-let
+  516  git commit -m "completed es6-const-let"
+  517  git push origin es6-const-let
+  518  git switch main
+  519  git branch es6-template-literals
+  520  git switch es6-template-literals
+  521  git add es6-template-literals
+  522  git commit -m "completed es6-template-literals"
+  523  git push origin es6-template-literals
+  524  git switch main
+  525  git branch es6-destructuring
+  526  git switch es6-destructuring
+  527  git add es6-destructuring
+  528  git commit -m "completed es6-destructuring"
+  529  git push origin es6-destructuring
+  530  git status
+  531  git switch main
+  532  git branch es6-arrow-functions
+  533  git switch es6-arrow-functions
+  534  git add es6-arrow-functions
+  535  git commit -m "completed arrow-functions"
+  536  git push origin es6-arrow-functions
+  537  git status
+  538  git switch main
+  539  git branch command-line-basics
+  540  git switch command-line-basics
+  541  cd command-line-basics
+  542  man man
+  543  man cat
+  544  cat laziness.txt
+  545  cat impatience.txt
+  546  cat hubris.txt
+  547  cat laziness.text impatience.txt hubris.txt
+  548  cat laziness.txt impatience.txt hubris.txt
+  549  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  550  cat three-virtues.txt
+  551  man ls
+  552  ls
+  553  ls -a
+  554  la -F
+  555  ls -F
+  556  ls lfz-staff/
+  557  ls -a lfz-staff/
+  558  ls -F lfz-staff/
+  559  ls -aF lfz-staff/
+  560  ls -aF lfz-staff 
+  561  ls -aF lfz-staff > lfz-staff/contents.txt
+  562  cat contents.txt
+  563  cat lfz-staff/contents.txt
+  564  man pwd
+  565  pwd
+  566  pwd > i-was-here.txt
+  567  ls
+  568  cat i-was-here.txt
+  569  man echo
+  570  echo 'Hello, World!'
+  571  echo 'Hello, World!' > hello.txt
+  572  ls
+  573  cat hello.txt
+  574  man touch
+  575  touch tag-youre-it.txt
+  576  touch snoot/boop.txt
+  577  ls snoot/
+  578  man mkdir
+  579  man mkdir
+  580  mkdir parent
+  581  ls parent/
+  582  ls -a parent/
+  583  mkdir -p parent/child/grandchild
+  584  touch parent/child/grandchild/.gitkeep
+  585  touch parent/.gitkeep
+  586  touch parent/child/.gitkeep
+  587  ls -a parent/
+  588  man mv
+  589  mv pokiemans pokemon
+  590  ls 
+  591  man rm
+  592  rm lol.txt
+  593  ls
+  594  rm -r kill-me/
+  595  ls
+  596  man cp 
+  597  cp and-then.txt no-and-then.txt
+  598  ls
+  599  cat and-then.txt no-and-then.txt
+  600  man history
+  601  history
+  602  history > command-history.txt
