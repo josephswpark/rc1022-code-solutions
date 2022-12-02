@@ -4,7 +4,7 @@ const app = express();
 app.use(function (req, res) {
   // eslint-disable-next-line no-unused-expressions
   req.method;
-  res.send('');
+  res.send('Hello World');
 });
 
 app.listen(3000, () => {
