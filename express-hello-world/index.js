@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 
 app.use(function (req, res) {
-  // eslint-disable-next-line no-unused-expressions
-  req.method;
   res.send('Hello World');
 });
 
