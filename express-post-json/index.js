@@ -21,7 +21,7 @@ app.listen(3000, () => {
 app.use(express.json());
 
 app.post('/api/grades', (req, res) => {
-  res.send(201);
+  res.status(201);
   const student = req.body;
   student.id = nextId;
   grades[nextId] = student;
