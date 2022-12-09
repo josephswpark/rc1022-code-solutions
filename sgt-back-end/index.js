@@ -151,7 +151,7 @@ app.delete('/api/grades/:gradeId', (req, res) => {
         });
         return;
       }
-      res.status(200).json(grade);
+      res.sendStatus(204);
     })
     .catch(err => {
       console.error(err);
