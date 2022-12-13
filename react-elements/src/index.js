@@ -7,8 +7,6 @@ const h1 = React.createElement(
   'Hello, React!'
 );
 
-console.log(h1);
-
 const $container = document.querySelector('#root');
 
 const root = ReactDOM.createRoot($container);
