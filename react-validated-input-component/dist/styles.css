@@ -1,0 +1,21 @@
+input {
+  border: solid 0.15rem;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem;
+}
+
+.fa-x {
+  margin-top: 1rem;
+  margin-left: 0.6rem;
+  color: red;
+}
+
+.fa-check {
+  color: green;
+  margin-left: 0.6rem;
+}
+
+.message {
+  color: red;
+  margin-top: 0.3rem;
+}
