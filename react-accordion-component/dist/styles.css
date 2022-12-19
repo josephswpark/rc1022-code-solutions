@@ -2,21 +2,26 @@
   width: 350px;
 }
 
-.title {
-  border: solid black 2px;
+.name {
+  border: solid black 1px;
   background-color: #dddd;
   font-size: 18px;
-  padding: 0 1px;
+  padding-left: 0.4rem;
   margin: 0;
+  cursor: pointer;
 }
 
 .description {
   margin: 0;
   padding: 0.4rem;
-  border-top: solid black 2px;
+  border: solid black 1px;
   background-color: white;
 }
 
 p {
   margin: 0.4rem 0.5rem;
+}
+
+.hidden {
+  display: none;
 }

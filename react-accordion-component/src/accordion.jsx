@@ -4,37 +4,33 @@ export default class Accordion extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      display: null
+      currentId: null
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(event) {
-    const id = event.target.id;
-    if (this.state.display === id) {
-      this.setState({ display: null });
-    } else {
-      this.setState({ dispaly: id });
+    const targetId = Number(event.target.getAttribute('id'));
+    if (event.target.className === 'name') {
+      if (this.state.currentId === targetId) {
+        this.setState({ currentId: null });
+      } else {
+        this.setState({ currentId: targetId });
+      }
     }
   }
 
   render() {
-    // const hidden = this.state.display ? '' : 'hidden';
-    const language = this.props.description.map(selection =>
-      <React.fragment key={selection.id}>
-        <p id={selection.id} onClick={this.handleClick}>{selection.name}</p>
-        <p className={this.state.display === selection.id ? '' : 'hidden'}>{selection.description}</p>
-      </React.fragment>
+    const language = this.props.content.map(selection =>
+      <React.Fragment key={selection.id}>
+        <p className='name' id={selection.id} onClick={this.handleClick}>{selection.name}</p>
+        <p className={this.state.currentId === selection.id ? 'description' : 'hidden'}>{selection.description}</p>
+      </React.Fragment>
     );
     return (
-      // <div className='title' onClick={this.handleClick}>
-      //   <p>{language.name}</p>
-      //   <p className={'description ' + hidden}>{language.description}</p>
-      // </div>
       <div className='title'>
         {language}
       </div>
     );
-
   }
 }
