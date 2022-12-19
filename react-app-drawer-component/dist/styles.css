@@ -1,0 +1,46 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.fa-bars {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.menu {
+  width: 180px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 220px;
+  background: rgb(127 125 127);
+  transition: 0.1s ease-in;
+  cursor: pointer;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  margin-left: 1rem;
+}
