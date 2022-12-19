@@ -1,0 +1,27 @@
+#root {
+  width: 350px;
+}
+
+.name {
+  border: solid black 1px;
+  background-color: #dddd;
+  font-size: 18px;
+  padding-left: 0.4rem;
+  margin: 0;
+  cursor: pointer;
+}
+
+.description {
+  margin: 0;
+  padding: 0.4rem;
+  border: solid black 1px;
+  background-color: white;
+}
+
+p {
+  margin: 0.4rem 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
