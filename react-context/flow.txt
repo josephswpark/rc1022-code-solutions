@@ -1,0 +1,36 @@
+User can sign up
+  - two main things are being stored in the database: username & hashedPassword
+  - in the handleSubmit method within the class AuthForm class componenet, the server
+    is handling a post request and is checking if the user clicked on sign up or sign
+    in the fetch request
+  - When the user signs up for an account, the data will be sent as a JSON of
+    username & password to the database to be saved.
+  - the user's data will be sent as an object
+  - the hash routing will happen, if the action === is sign-up then it will change
+    to the sign-in page
+  - Depending on the page, it will show different click options
+
+
+
+
+user can sign in
+  - user can try signing in now, if the password does not match, it will return
+    an error message to the user
+  - Once the credentials are inputted, the server will use Argon2.verify will to make
+    sure that the password is matched to the hashedPassword
+  - handleSignIn() in app.jsx handles beign stayed signed in even if the page refreshes
+
+
+
+
+
+user can stay signed in (even if they refresh the page)
+- componentDidMount() has an event listener for the route and handleSignIn to allow user
+  to stay in even if the page is refreshed
+- the token will be stored in the localStorage
+- as long as user is not null, then it will stay sign in
+
+user can sign out
+  - when a user signs out, it will use the handleSignOut(),
+  it will reset the state of user to null
+  - it will also remove the react-context-jwt
